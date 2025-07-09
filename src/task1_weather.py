@@ -1,7 +1,7 @@
 import json
 
 
-def get_avg_temp(filename: str, city: str) -> float:
+def get_avg_temp(filename: str, city: str):
     avg_temp = 0
     data = {}
     average_temp = {}
